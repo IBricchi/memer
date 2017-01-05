@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+}
+body{
+    background: url('../img/back.gif'), url('img/back.gif') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    background-attachment: fixed;
+  	background-repeat: no-repeat;
+    height: 100%;
+}
+.choose{
+    background-color: white; 
+	border: groove 3px yellow;
+	height: 10%;
+	width: 20%;
+	float: left;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 5%;
+}
+#personal{
+	margin: center;
+}
+.choose:hover{
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+}
+.imgb{
+	float: left;
+	width: 42%;
+	margin: 1% 0 0 6%;
+}
+.img{
+    border-radius: 25px;
+    overflow:hidden;
+	width: 100%;
+	border: groove 3px yellow;
+}
+.img:hover{
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+}

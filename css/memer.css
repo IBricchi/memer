@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+}
+body{
+    background: url('../img/back.gif') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    background-attachment: fixed;
+  	background-repeat: no-repeat;
+    height: 100%;
+}
+#txtbox{
+	background: white;
+	border: groove 3px yellow;
+	margin: 2% 10%;
+	width: 80%;
+	height: 10%;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 2%;
+}
+#imgbox{
+	width: 70%;
+	margin: 0 auto;
+}
+.img{
+    border-radius: 25px;
+    overflow:hidden;
+	border: groove 3px yellow;
+    width: 45%;
+}
+#img1{
+	float: left;
+}
+#img2{
+	float: right;
+}
+.imgimg{
+    width: 100%;
+    vertical-align: bottom;
+
+}
+.imgimg:hover{
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+}

@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+body{
+    background: url('../img/back.gif') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: fixed;
+    background-attachment: fixed;
+  	background-repeat: no-repeat;
+    height: 100%;
+}
+#txtbox{
+	background: white;
+	border: groove 3px yellow;
+	margin: 2% 10%;
+	width: 80%;
+	height: 10%;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 2%;
+}
+#upload{
+    border-radius: 25px;
+    overflow:hidden;
+	border: dashed 5px black;
+	width: 30%;
+	margin: 5% 35% 0 35%;
+}
+#upload img{
+	width: 100%;
+}
+.upl{
+	margin: 10px;
+}
